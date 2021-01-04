@@ -140,7 +140,7 @@ section.banner img{
 
     header nav.main-nav li{
         display: inline-block;
-        width: 118px;        
+        width: 118px;     
     }
 
     header nav.main-nav li:not(:last-child){
@@ -171,6 +171,10 @@ section.banner img{
 /* VERSION DESKTOP */
 @media(min-width: 769px){
 
+    body{
+        text-align: -webkit-center;
+    }
+
     .container{
         max-width: 1180px;
     }
@@ -189,7 +193,7 @@ section.banner img{
         width: 180px;
         float: left;
         margin-right: 0;
-    }    
+    } 
 
     .container section.vip-products article{
         width: 380px;
@@ -204,6 +208,10 @@ section.banner img{
         margin-right: 0;
     }
 
+    .container section.vip-products article.product{
+        text-align: left;
+    }
+
     .container footer{
         width: 100%;
         background-color: firebrick;
@@ -216,9 +224,7 @@ section.banner img{
     .container footer ul{
         width: 100%;
         text-align: center;
-        margin-top: 10px;
-        
-        
+        margin-top: 10px;    
     }
 
     .container footer ul li{
